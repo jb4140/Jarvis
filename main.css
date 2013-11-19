@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.contain img {
+	height: 220px;
+	width: 461px;
+}
+
+.navbar{
+	height: 200px;
+	width: 100%;
+	color: black;
+	display: inline-block;
+	margin-top:30px; 
+}
+
+.list{
+	float: right;
+	display: inline-block;
+	margin: 0px 5px 0px 10px; 
+	overflow: hidden; 
+	margin-right: 15px; 
+}
+
+a:link{
+	color: black;
+	text-decoration: none; 
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+#SignIn{
+	float: right;
+	display: inline-block;
+	margin-top: -5px;
+	margin-left: 5px;
+	margin-right: 40px;
+	background-color:#4387fd;
+	color:white; 
+	border-radius: 2px; 
+	font-family:arial, sans-serif; 
+	font-size: 13px; 
+	width: 71px;
+	height: 30px; 
+	font-weight: 700; 
+	clear:both; 
+	overflow: hidden; 
+}
+
+
+#SignIn a{
+	color: white;
+	clear: both; 
+}
+
+.txt{
+	padding-left: 15px; 
+	padding-top: 10px; 
+	clear:both; 
+	}
+
+.contain{
+	text-align: center;
+}
+
+.textbar{
+	height: 25px;
+	width: 600px;
+	background-color: transparent;
+	border: 1px #47A3FF solid ; 
+	margin: 0 auto; 
+	display: block;
+
+}
+
+.wrapper{
+	text-align: center; 
+	margin-top: 25px;
+}
+
+.googlesearch {
+	display: inline-block; 
+	height: 25px;
+}
+
+.feelinglucky {
+	display: inline-block; 
+	height: 25px;
+}
+
+.footer {
+	background-color:#f2f2f2;
+	font-family: arial,sans-serif; 
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	clear: both; 
+	width: 100%;  
+	text-align: center; 
+	padding: 10px 0px 10px 0px;
+
+}
+
+.left{
+	float:left;
+	display:inline-block;
+	margin-right: 10px;
+	margin-left: 15px;
+	font-family: arial,sans-serif; 
+	font-size: 14px; 
+	overflow: hidden; 
+	padding: 0px 0px 5px 0px;
+}
+
+.right{
+	float:right;
+	display:inline-block;
+	margin-right: 25px;
+	margin-left: -15px;
+	font-family: arial,sans-serif; 
+	font-size: 14px; 
+	overflow: hidden; 
+	padding: 0px 0px 5px 0px; 	
+}
+
+.new{
+	color: red; 
+}
